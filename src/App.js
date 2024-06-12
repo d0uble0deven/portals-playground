@@ -20,8 +20,14 @@ export const App = () => (
       <Gltf src="fiesta_tea-transformed.glb" position={[0, -2, -3]} />
     </Frame>
     <Frame id="03" name="still" author="Omar Faruq Tawsif" bg="#d1d1ca" position={[1.15, 0, 0]} rotation={[0, -0.5, 0]}>
-      <Gltf src="still_life_based_on_heathers_artwork-transformed.glb" scale={2} position={[0, -0.8, -4]} />
+      <Gltf src="cybertruck/cybertruck.glb" scale={2} position={[0, -0.8, -4]} />
     </Frame>
+    {/* <Frame id="03" name="still" author="Omar Faruq Tawsif" bg="#d1d1ca" position={[1.15, 0, 0]} rotation={[0, -0.5, 0]}>
+      <Gltf src="cybertruck/cybertruck_wrap.gltf" scale={2} position={[0, -0.8, -4]} />
+    </Frame> */}
+    {/* <Frame id="03" name="still" author="Omar Faruq Tawsif" bg="#d1d1ca" position={[1.15, 0, 0]} rotation={[0, -0.5, 0]}>
+      <Gltf src="still_life_based_on_heathers_artwork-transformed.glb" scale={2} position={[0, -0.8, -4]} />
+    </Frame> */}
     <Rig />
     <Preload all />
   </Canvas>
